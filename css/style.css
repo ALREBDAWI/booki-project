@@ -164,12 +164,14 @@ ul li :hover{
 
 }
 
-.btn{ height: 49px;
+.btn{ 
+    
+    height: 49px;
     width: 132px; 
     background-color: #0065FC;
     border-style: none;
     border-radius: 0px 15px 15px 0px;
-    text-decoration: 16px black ; 
+    color:white;
     font-weight: 700;
     padding: 0px 15px 0px 15px;
     cursor: pointer;
