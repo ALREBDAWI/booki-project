@@ -496,7 +496,32 @@ ul li :hover{
 
 /************************footer***************************/
 
+footer{
 
+    width: 1,340px;
+    height: 163px;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: repeat(3, 446.67px);
+    padding: 20px;
+   
+    
+}
+
+
+.footer-title{
+
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.footer-link{
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
