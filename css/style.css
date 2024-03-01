@@ -24,6 +24,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -293,11 +294,95 @@ ul li :hover{
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+   
+     
+}
+
+.hebergements .cards-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, min(250.33px));
+    gap: 30px;
+}
+
+.hebergements .hebergements-title{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+.hebergements .hebergements-footer{
+
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.hebergements img{
+
+    width: 250.33px;
+    height: 124px;
+    border: solid 5px white;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+
+}
+
+.hebergements .card{
+
+    height: 207.25px;
+    width: 250.33px;
+    padding: 0px 0px 15px 0px;
+    gap: 4px;
+    
+}
+
+.hebergements .card-content{
+
+    width: 250.33px;
+    height: 64.25px;
+    gap: 8px;
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 15px;
+    
+     
+    
+   
+}
+
+.hebergements .card-rating{
+
+    
+    margin-bottom: 0px;
+   
+}
+
+.hebergements .hotel-name{
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hebergements .price{
+    
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    
+
 }
 
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    
 }
 
 .populaires-title {
@@ -340,7 +425,10 @@ ul li :hover{
     margin-bottom: 5px;
 }
 
+/********************activites a marseille********************/
 
+
+/************************footer***************************/
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
