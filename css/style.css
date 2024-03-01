@@ -427,6 +427,72 @@ ul li :hover{
 
 /********************activites a marseille********************/
 
+.activites-marseille{
+
+    width: 100%;
+    height: 559.02px;
+    padding: 30px;
+    gap: 30px;
+
+}
+
+.activites-marseille .cards-container{
+
+    display: flex; flex-direction: row;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min(297.5px));
+    gap: 30px;
+
+}
+
+.activites-marseille article{
+
+    width: 297.5px;
+    height: 439px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    display: flex; flex-direction: column;
+
+}
+
+.activites-marseille img{
+
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+
+}
+
+.activites-marseille .card-content p{
+
+    height: 19px;
+    width: 259.5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 19px 20px 19px;
+}
+
+.activites-marseille .card-content{
+
+    height: 59px;
+    width: 297.5px;
+    
+   
+
+}
+
+.activites-marseille .title{
+
+    
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+
 
 /************************footer***************************/
 
