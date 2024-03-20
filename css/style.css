@@ -102,7 +102,7 @@ header li:after{
     content: "";
     position: absolute;
     background-color: var(--main-color);
-    height: 2.5px;
+    height: 4px;
     width: 0;
     right: 0px;
     top: -26px;
